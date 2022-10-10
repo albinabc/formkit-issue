@@ -1,5 +1,5 @@
 export const messages = {
   personalDetails: {
-    firstName: 'First name'
+    email: 'Email address (en-US)'
   }
 }

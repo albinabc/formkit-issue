@@ -26,12 +26,13 @@ const updateLocale  = () => {
 
 <template>
   <div>
-  {{i18n.locale.value}}
+  Current Locale: {{i18n.locale.value}}
     </div>
+    <br>
   <FormKit type="form">
     <FormKit
       type="email"
-      :label="t('personalDetails.firstName')"
+      :label="t('personalDetails.email')"
       placeholder="email@example.com"
       validation="required|email"
     />
