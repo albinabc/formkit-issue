@@ -28,7 +28,7 @@ const updateLocale  = () => {
   <div>
   Current Locale: {{i18n.locale.value}}
     </div>
-<button @click="updateLocale">Swap Language </button>
+<button @click="updateLocale">Swap Language</button>
     <br>
     <br>
   <FormKit type="form">
